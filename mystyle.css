@@ -1,0 +1,58 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * manual.css
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * mainframe ;-)
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: #fff;
+    color: #036;
+    padding: 0 1em 0 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+pre, code {
+    font-family: "Courier New", Courier, monospace;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+/* fixup IE & Opera
+ * otherwise they forget to inherit
+ * the computed font-size value
+ */
+table, code {
+    font-size: 1em;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Links
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* normal links           */
+/* ====================== */
+a:link {
+    color: #0073c7;
+    background-color: inherit;
+}
+
+a:visited {
+    color: #5A88B5;
+    background-color: inherit;
+}
+
+a:hover,
+a:active {
+    color: #0073c7;
+    background-color: #f0f0f8;
+}

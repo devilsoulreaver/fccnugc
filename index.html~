@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>M.G University, Finance Branch</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<!--
+<frameset rows="80,*" frameborder="NO" border="0" framespacing="0">
+	<frame name="topFrame" scrolling="NO" noresize src="topframe.html" >
+	-->
+  <frameset cols="151,*" frameborder="NO" border="0" framespacing="0" rows="*">
+    <frame name="leftFrame" scrolling="yes" style="width:20%"  src="leftframe.html">
+    <frame name="mainFrame" src="mainframe.html">
+  </frameset>
+  <!--
+  </frameset>
+  <noframes>
+	  -->
+	  <body language="Javascript" bgcolor="#FFFFFF" text="#000000">
+
+</body></noframes>
+</html>
+

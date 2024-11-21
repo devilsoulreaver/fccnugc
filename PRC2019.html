@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PRC 2019 FORM</title>
+</head>
+<body>
+	<div class="container">
+
+
+	<div class="form1">
+		<label for="">Show Indbillsmaster for Payrevision 2019</label><br><br>
+
+		<form class="" action="PRC_2019.php" method="post">
+			<label for="">Enter PF NO</label>
+			<input type="text" name="pfno" value="">
+			<input type="submit" name="" value="SHOW INDBILL">
+		</form>
+	</div>
+<br><br>
+
+	<div class="form2">
+<label for="">Show Paybill for Payrevision 2019</label><br><br>
+	<form class="" action="PRC_2019_P.php" method="post">
+		<label for="">Enter INDBILL NO</label>
+		<input type="number" name="ibno" value="">
+		<input type="submit" name="" value="SHOW PAYBILL">
+
+		</form>
+	</div><br><br>
+
+	<div class="form3">
+<label for="">Show  Payrevision 2019 Amounts</label><br><br>
+	<form class="" action="PRC_2019_A.php" method="post">
+		<label for="">Enter PF NO</label>
+		<input type="text" name="pfno" value="">
+		<select name="ITEM">
+			<option value="PF">PF AMOUNT</option>
+			<option value="NPS">NPS</option>
+		</select>
+		<input type="submit" name="" value="SHOW AMOUNT">
+
+		</form>
+	</div>
+	</div>
+</body>
+</html>
+<style>
+.form1,.form2{
+	background-color:#C0C0C0;
+	border: .01px solid;
+	width: 640px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+.form3{
+	background-color:#C0C0C0;
+	border: .01px solid;
+	width: 640px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+.container{
+	border: .01px solid;
+  text-align: center;
+	padding: 30px;
+}
+</style>

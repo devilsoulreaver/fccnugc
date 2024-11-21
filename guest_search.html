@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Guest/Contract Employees Search
+		</title>
+		<script language="JavaScrpt">
+			function f1()
+			{
+				document.frm1.empname.focus();
+				alert("HEHE");
+				if (document.frm1.empname.value=="")
+					{
+						alert("You Have To Enter A Key To Seach");
+						return false;
+					}
+				else
+					{
+						document.frm1.submit();
+					}
+			}
+		</script>
+		</head>
+		<body onload='document.frm1.empname.focus()'>
+		<table align="center" width="70%" bgcolor="#abcdef" border="0">
+		<form name="frm1" action="guest_search.php" method="get">
+		<tr>
+			<td><h3>Enter A Name </td>
+			<td><input style="width:250" name="empname" type="text"></input></td>
+			<td><input type="submit" value="Submit" onClick="return f1()" language="javaScript"></td>
+		</tr>
+		</form>
+		</table>
+		</body>
+</html>
+				
